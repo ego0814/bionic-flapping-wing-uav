@@ -1,0 +1,355 @@
+{
+  "schema_version": 1,
+  "project": "bionic-flapping-wing-uav",
+  "title": "高性能微型仿生扑翼无人机系统",
+  "repository": "https://github.com/ego0814/bionic-flapping-wing-uav",
+  "release": "https://github.com/ego0814/bionic-flapping-wing-uav/releases/tag/v1.0.0",
+  "generated_at": "2026-10-30",
+  "code": [
+    {
+      "path": "code/flapping_controller_1_0/flapping_controller_1_0.ino",
+      "lines": 161,
+      "sha256": "9bc5acd067f8e9f1cdae972e7669f10591e844e1ea67c7a418f4c3503c6ef484"
+    }
+  ],
+  "solidworks": {
+    "count": 52,
+    "directory": "models/solidworks",
+    "files": [
+      {
+        "path": "models/solidworks/001-bodyB.SLDPRT",
+        "bytes": 727891,
+        "sha256": "2c71b52ff5d4d487341451de9ecc2cad129e5a72d3a3cbc9ca70cbb5352208e1"
+      },
+      {
+        "path": "models/solidworks/002-bodyC.SLDPRT",
+        "bytes": 566170,
+        "sha256": "090ba2fa6467496a77d87091fed590913788db02ce4be9fb6c3abd84a538c8da"
+      },
+      {
+        "path": "models/solidworks/003-翅根.SLDPRT",
+        "bytes": 666690,
+        "sha256": "7ca7664842879b3d86b40e92148d43b94020aaff84fe04faa45c20f95b8270cf"
+      },
+      {
+        "path": "models/solidworks/004-输入杆.SLDPRT",
+        "bytes": 201662,
+        "sha256": "0b1cf666697b07cb30ac7e4724ce090c029f4a43039edd9ef6b21d5754964ea5"
+      },
+      {
+        "path": "models/solidworks/004-输入杆B.SLDPRT",
+        "bytes": 180597,
+        "sha256": "761830bfd68afabf379f278810ca6b8bdeb94b04805683134a48c2361ac00184"
+      },
+      {
+        "path": "models/solidworks/005-约束杆.SLDPRT",
+        "bytes": 184328,
+        "sha256": "9230d1e9cbd4d7c09bcfd902e43b6624293ec148a051bd9a94aadf6f7329965a"
+      },
+      {
+        "path": "models/solidworks/006-L06.SLDPRT",
+        "bytes": 114235,
+        "sha256": "7c9de470e75fa71da0ad2a817925709b31cb681f0eac1e345967b181b5ed5a1b"
+      },
+      {
+        "path": "models/solidworks/007-M0.5 T8.SLDPRT",
+        "bytes": 133224,
+        "sha256": "3bee519f4ecb212d8a79ccfb31e5c1f87454c444c7239839b9037ab8e41cf796"
+      },
+      {
+        "path": "models/solidworks/008-M0.5 T37.SLDPRT",
+        "bytes": 685878,
+        "sha256": "44309fce8fdd0e9f65e41edc1ed5fa1511c9e58367c84ae977b03a7911fde241"
+      },
+      {
+        "path": "models/solidworks/009-M0.5 T39左.SLDPRT",
+        "bytes": 542637,
+        "sha256": "cfa0d2ec99346a69f2ae07d4c7fb201e92a7935cd8234cd089aa9356b402afbd"
+      },
+      {
+        "path": "models/solidworks/010-M0.5 T39右B.SLDPRT",
+        "bytes": 542063,
+        "sha256": "c0159f1965300d0968226f8e06f1db4eefdb03c7ef5127da115de9cdb1a09fac"
+      },
+      {
+        "path": "models/solidworks/011-翅根18.SLDPRT",
+        "bytes": 132840,
+        "sha256": "afdd13bb6a5eeb30d840c9d62cf486aaa8fc3133cc78b8cfd9694f27cb4407bd"
+      },
+      {
+        "path": "models/solidworks/011-翅根23.SLDPRT",
+        "bytes": 133719,
+        "sha256": "b7083685d25ce1088a8ff9d57b1056d95d9d9c2c76c002ccf1785e6997eaf63a"
+      },
+      {
+        "path": "models/solidworks/011-翅根28.SLDPRT",
+        "bytes": 140522,
+        "sha256": "485d1a055ef7cc54822d08e0dcf09ad97b844b4393e6668c746ca0a3f9e14527"
+      },
+      {
+        "path": "models/solidworks/011-翅根32.SLDPRT",
+        "bytes": 136454,
+        "sha256": "656850064b79d388b1cf9b03d3c9deaa59258fd2c877e9391aca24726e9722fa"
+      },
+      {
+        "path": "models/solidworks/012-尾翼杆.SLDPRT",
+        "bytes": 115558,
+        "sha256": "279a9dcdeaf75f08f2f819b2c8c668f8942ea016b35976fb1da18e0e0ff45a61"
+      },
+      {
+        "path": "models/solidworks/013-尾翼.SLDPRT",
+        "bytes": 167439,
+        "sha256": "1106c423c40d425389ae9b4b7e4b7da7676d53527a7c066f382911606c058ea9"
+      },
+      {
+        "path": "models/solidworks/014-腹板.SLDPRT",
+        "bytes": 97064,
+        "sha256": "26ad7bce36224d480ba9fe6eb18f75775f9b733b1903b48fe63795ccf59df32b"
+      },
+      {
+        "path": "models/solidworks/015-滑箱0.8.SLDPRT",
+        "bytes": 2137797,
+        "sha256": "63b8afcd7510a8b1d52943d0ffde517bd5cbbed2fb46a2f2cb320a21336110ec"
+      },
+      {
+        "path": "models/solidworks/015-滑箱1.0.SLDPRT",
+        "bytes": 2097541,
+        "sha256": "099a4daaf215a3954777ec949e21cbd180fcffe61dc1c67d528e8a41a8d67b9c"
+      },
+      {
+        "path": "models/solidworks/8字仿生扑翼-锥齿轮空间结构部分9-24.txt",
+        "bytes": 65,
+        "sha256": "c1e79e9de2971b6345f1a204b8650804d9e3879918f4c58364e3423bbd522de2"
+      },
+      {
+        "path": "models/solidworks/BJ-直齿C.SLDASM",
+        "bytes": 898999,
+        "sha256": "2d1804342a4997a9d22de050940f2e6b87d94e98eb477274ee92002501dd06f4"
+      },
+      {
+        "path": "models/solidworks/body.SLDPRT",
+        "bytes": 510863,
+        "sha256": "2732af674423219de5739f2e31dac5e151811c9a10b570408eeed650e889dbf7"
+      },
+      {
+        "path": "models/solidworks/M0.5 T39.SLDPRT",
+        "bytes": 455157,
+        "sha256": "8077c85b17deb7043acc955f397ea84c7f783ced5fce5b92be540b15a0644fdd"
+      },
+      {
+        "path": "models/solidworks/M0.5 T39右.SLDPRT",
+        "bytes": 465345,
+        "sha256": "c3d6e4987467ff47959d854f1dc0707d18c4a59281b57d95dc4aa652d22cb892"
+      },
+      {
+        "path": "models/solidworks/侧缘.SLDPRT",
+        "bytes": 67349,
+        "sha256": "8924a7eaa706054847360f53bb428a5c00940483f0a59e7440dd7d69e5770233"
+      },
+      {
+        "path": "models/solidworks/前缘.SLDPRT",
+        "bytes": 58144,
+        "sha256": "26b5f1ca534acccbdd32090a6053144dfb19f04b61ff13798219d6b03082035a"
+      },
+      {
+        "path": "models/solidworks/参数.txt",
+        "bytes": 64,
+        "sha256": "dc193e49df4b5d89e03d98c882d05772366c7c647e3b01b7b6fa1416154e27d1"
+      },
+      {
+        "path": "models/solidworks/固定板.SLDPRT",
+        "bytes": 55636,
+        "sha256": "9e1800dc490af4d828b1421286a48bdbd75422d9a793c039424ff3a9820759b1"
+      },
+      {
+        "path": "models/solidworks/打印/001-bodyB.SLDPRT",
+        "bytes": 3107257,
+        "sha256": "5d6bf40e91b80e6c9af8986cadd661e7ddbba98cf83cdc0d47a3451d9e2de970"
+      },
+      {
+        "path": "models/solidworks/打印/002-bodyC.SLDPRT",
+        "bytes": 3164391,
+        "sha256": "70a907be26a14d699dfdcbf834c12aba7e87b844a65fa1ebe0338129cd0c6e42"
+      },
+      {
+        "path": "models/solidworks/打印/003-翅根.SLDPRT",
+        "bytes": 6622583,
+        "sha256": "3998f63a73f23f66fb9e68795eef31e6893af7688a18eba9551916afa657df30"
+      },
+      {
+        "path": "models/solidworks/打印/004-输入杆.SLDPRT",
+        "bytes": 1423769,
+        "sha256": "66817e341762357864ae9fb4de73eee54cf50e16a2a70321764b1f27303c72d9"
+      },
+      {
+        "path": "models/solidworks/打印/004-输入杆B.SLDPRT",
+        "bytes": 901300,
+        "sha256": "aef3270c8d4e568da19325c96a232a54c2bc337c79667484cca1d5e36369ab61"
+      },
+      {
+        "path": "models/solidworks/打印/005-约束杆.SLDPRT",
+        "bytes": 1256461,
+        "sha256": "dac6b2f75afcb0becc5b99815f5dd3beb9d8514e9ec5054293ebe5b178a850d7"
+      },
+      {
+        "path": "models/solidworks/打印/006-L06.SLDPRT",
+        "bytes": 461273,
+        "sha256": "bd3f2b6f9715aef73142c67c9efd2c298b215e8c0958b65004de0c454ae64047"
+      },
+      {
+        "path": "models/solidworks/打印/007-M0.5 T8.SLDPRT",
+        "bytes": 943890,
+        "sha256": "94f148e2c5a4d0f39b6a8007131fc6885df121024e693dc377560ac9575c7b40"
+      },
+      {
+        "path": "models/solidworks/打印/008-M0.5 T37.SLDPRT",
+        "bytes": 3760458,
+        "sha256": "b6c8ccd6a11216d3bd9e6269d3c8e02d71dd8e1fc266cd1cece5431b8ff08524"
+      },
+      {
+        "path": "models/solidworks/打印/009-M0.5 T39左.SLDPRT",
+        "bytes": 2627577,
+        "sha256": "c6984981dc1bb152eb4e5a2de7f9d6a574c7ee66af3d736501fbfc76c8dc5704"
+      },
+      {
+        "path": "models/solidworks/打印/010-M0.5 T39右B.SLDPRT",
+        "bytes": 2619365,
+        "sha256": "e7a1f38f29eaa0db367dd01b3338e86e49c127d232fcd0b06c5784c220d30b02"
+      },
+      {
+        "path": "models/solidworks/打印/011-翅根18.SLDPRT",
+        "bytes": 1078709,
+        "sha256": "7d1ab3e9225f965b69440adf4e0dbfca61d7128e09eb997e9b4c9e1493ca6794"
+      },
+      {
+        "path": "models/solidworks/打印/011-翅根23.SLDPRT",
+        "bytes": 1005805,
+        "sha256": "769a5bfc694f6dee63ade8db4cc76ec589d60f498199a08fb8135f70c6e380c5"
+      },
+      {
+        "path": "models/solidworks/打印/011-翅根28.SLDPRT",
+        "bytes": 998065,
+        "sha256": "6b6d266008d2f98122b93106a358e3ccbc28e97c2658ebd190943f420cd4dfee"
+      },
+      {
+        "path": "models/solidworks/打印/011-翅根32.SLDPRT",
+        "bytes": 983751,
+        "sha256": "f1d918c9d8c7a357f036958ed0597617fcddec49d12517927169e5e788ec4a02"
+      },
+      {
+        "path": "models/solidworks/打印/012-尾翼杆.SLDPRT",
+        "bytes": 315855,
+        "sha256": "f4ea51b48e0ede9b536fc171cd0c362a32048e559e6e3c14ed8b6d1c720bc3ef"
+      },
+      {
+        "path": "models/solidworks/打印/013-尾翼.SLDPRT",
+        "bytes": 703055,
+        "sha256": "ea481d0ad2a0ff6281191d6f8eb18e311e4188911fca0a186b09e7ebf65b0374"
+      },
+      {
+        "path": "models/solidworks/打印/014-腹板.SLDPRT",
+        "bytes": 610345,
+        "sha256": "ea8b2067eee30e488d0294b1f4722e04075c897a4eec155db3ad0a4b0f43938f"
+      },
+      {
+        "path": "models/solidworks/打印/015-滑箱0.7.SLDPRT",
+        "bytes": 12494104,
+        "sha256": "e962574ed2f867ee9cefc0aacba58add8fe57c4894bc36401c71a94997612eea"
+      },
+      {
+        "path": "models/solidworks/打印/015-滑箱0.8.SLDPRT",
+        "bytes": 12570290,
+        "sha256": "6b5c33a1bc74a53ea1e1dfc827b3a1c765c149a61529c176dcde557d63796d05"
+      },
+      {
+        "path": "models/solidworks/打印/015-滑箱1.0.SLDPRT",
+        "bytes": 12559370,
+        "sha256": "3ad7c1400d9d10df60c0f51112e17700aefccdfc7cfb0f88626db06ac9604fc1"
+      },
+      {
+        "path": "models/solidworks/滑板底板.SLDPRT",
+        "bytes": 67503,
+        "sha256": "c26d80ce5dd2cc7c16ab7ee632bcb90ee7a7517baff69bb136cd98441c116463"
+      },
+      {
+        "path": "models/solidworks/翅膜.SLDPRT",
+        "bytes": 55705,
+        "sha256": "94ec18e16e50ea412aa2697f2268dc0163f62dbeb2c752f341bd65672b041bc9"
+      }
+    ]
+  },
+  "step_archives": [
+    {
+      "name": "STEP-models-pack-01.zip",
+      "bytes": 6577276,
+      "sha256": "f51979acd9e4cf5544df8ac1366bb2caf7d2a22f6f9758661232df89ee1021d9",
+      "members": [
+        "008-M0.5 T37.STEP",
+        "014-腹板.STEP"
+      ]
+    },
+    {
+      "name": "STEP-models-pack-02.zip",
+      "bytes": 6566272,
+      "sha256": "f369039868b9e0b1312bfb44bb5e40464c854cf40b965de2d0c22ade05c82131",
+      "members": [
+        "002-bodyC.STEP",
+        "015-滑箱0.7.STEP"
+      ]
+    },
+    {
+      "name": "STEP-models-pack-03.zip",
+      "bytes": 6632009,
+      "sha256": "c4a276e1cc6fecb8bc5b337466eb9225299a270577218abeb7405a829833b570",
+      "members": [
+        "004-输入杆.STEP",
+        "011-翅根18.STEP",
+        "015-滑箱1.0.STEP"
+      ]
+    },
+    {
+      "name": "STEP-models-pack-04.zip",
+      "bytes": 6606948,
+      "sha256": "1c4889257e84985ec3bee2154fa3a7715adfc1435c68961f976ca3b7b6953476",
+      "members": [
+        "011-翅根23.STEP",
+        "011-翅根32.STEP",
+        "015-滑箱0.8.STEP"
+      ]
+    },
+    {
+      "name": "STEP-models-pack-05.zip",
+      "bytes": 6538430,
+      "sha256": "9813411d70ca19621e3b3bd43a9accad1137e8fcf2b0468b1fef047e47ebaf9b",
+      "members": [
+        "003-翅根.STEP",
+        "006-L06.STEP",
+        "009-M0.5 T39左.STEP"
+      ]
+    },
+    {
+      "name": "STEP-models-pack-06.zip",
+      "bytes": 6238058,
+      "sha256": "7d8d2e65101f1d9c9edc1b6b55c4c7212393a1bfe7654c8a87944c6afa9a878b",
+      "members": [
+        "001-bodyB.STEP",
+        "004-输入杆B.STEP",
+        "005-约束杆.STEP",
+        "010-M0.5 T39右B.STEP",
+        "011-翅根28.STEP",
+        "012-尾翼杆.STEP",
+        "013-尾翼.STEP"
+      ]
+    },
+    {
+      "name": "STEP-models-pack-07.zip",
+      "bytes": 3260406,
+      "sha256": "df90dfd508d54e7d7244f5775ab624ad66e8e10a16eaf7b7536e17067660486e",
+      "members": [
+        "007-M0.5 T8.STEP"
+      ]
+    }
+  ],
+  "step_file_count": 21,
+  "file_checksums": "manifests/SHA256SUMS.txt"
+}
